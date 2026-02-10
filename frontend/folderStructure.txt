@@ -1,0 +1,39 @@
+frontend/
+│
+├── src/
+│ ├── app/
+│ │ ├── App.jsx
+│ │ └── router.jsx
+│ │
+│ ├── auth/
+│ │ ├── Login.jsx
+│ │ ├── Register.jsx
+│ │ └── ProtectedRoute.jsx
+│ │
+│ ├── admin/
+│ │ ├── AdminDashboard.jsx
+│ │ ├── ProductForm.jsx
+│ │ ├── Orders.jsx
+│ │ └── Stats.jsx
+│ │
+│ ├── user/
+│ │ ├── UserDashboard.jsx
+│ │ ├── ProductList.jsx
+│ │ ├── Cart.jsx
+│ │ └── Orders.jsx
+│ │
+│ ├── context/
+│ │ ├── AuthContext.jsx
+│ │ └── CartContext.jsx
+│ │
+│ ├── services/
+│ │ └── api.js
+│ │
+│ ├── styles/
+│ │ └── main.css
+│ │
+│ └── main.jsx
+│
+├── index.html
+├── package.json
+└── vite.config.js

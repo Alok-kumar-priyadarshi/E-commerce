@@ -1,0 +1,41 @@
+backend/
+│
+├── app/
+│ ├── main.py
+│ ├── core/
+│ │ ├── config.py
+│ │ ├── security.py
+│ │ └── database.py
+│ │
+│ ├── models/
+│ │ ├── user.py
+│ │ ├── product.py
+│ │ ├── order.py
+│ │ └── __init__.py
+│ │
+│ ├── schemas/
+│ │ ├── user.py
+│ │ ├── product.py
+│ │ ├── order.py
+│ │ └── __init__.py
+│ │
+│ ├── api/
+│ │ ├── deps.py
+│ │ └── v1/
+│ │ ├── auth.py
+│ │ ├── admin.py
+│ │ ├── user.py
+│ │ └── router.py
+│ │
+│ ├── services/
+│ │ ├── auth_service.py
+│ │ ├── order_service.py
+│ │ └── product_service.py
+│ │
+│ └── __init__.py
+│
+├── alembic/
+├── alembic.ini
+├── .env
+├── requirements.txt
+└── README.md
