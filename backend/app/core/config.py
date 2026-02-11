@@ -35,6 +35,7 @@ class Settings(BaseSettings):
     ALLOWED_ORIGINS: List[str] = [
         "http://localhost:5173",
         "http://127.0.0.1:5173",
+        "https://e-commerce-gtna48dy2-alokkp93-4785s-projects.vercel.app",
     ]
 
     class Config:
