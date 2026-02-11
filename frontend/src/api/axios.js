@@ -5,6 +5,10 @@ const api = axios.create({
     baseURL: import.meta.env.VITE_API_URL,
 })
 
+// temperorly
+console.log("API URL:", import.meta.env.VITE_API_URL);
+
+
 // REQUEST INTERCEPTOR
 // automatically attaches jwt to every request
 
